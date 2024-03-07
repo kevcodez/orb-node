@@ -1,5 +1,40 @@
 # Changelog
 
+## 2.0.0 (2024-03-07)
+
+Full Changelog: [v1.41.0...v2.0.0](https://github.com/orbcorp/orb-node/compare/v1.41.0...v2.0.0)
+
+### ⚠ BREAKING CHANGES
+
+* remove brackets from array param names ([#109](https://github.com/orbcorp/orb-node/issues/109))
+
+### Bug Fixes
+
+* remove brackets from array param names ([#109](https://github.com/orbcorp/orb-node/issues/109)) ([19ec1af](https://github.com/orbcorp/orb-node/commit/19ec1af60197490d0c91b66f6f67f829ecc04cc4))
+
+
+### Chores
+
+* **ci:** update actions/setup-node action to v4 ([#114](https://github.com/orbcorp/orb-node/issues/114)) ([0a8ef1f](https://github.com/orbcorp/orb-node/commit/0a8ef1fa9abc3a24197907ed5177424334386ae2))
+* **ci:** uses Stainless GitHub App for releases ([#111](https://github.com/orbcorp/orb-node/issues/111)) ([81e874f](https://github.com/orbcorp/orb-node/commit/81e874f252a87f8776aefff92519fd5def9be628))
+* **docs:** mention install from git repo ([#118](https://github.com/orbcorp/orb-node/issues/118)) ([c4c60b6](https://github.com/orbcorp/orb-node/commit/c4c60b68fe5507b9175b004ae20d0807d0089382))
+* fix error handler in readme ([#119](https://github.com/orbcorp/orb-node/issues/119)) ([8d225a7](https://github.com/orbcorp/orb-node/commit/8d225a78417fe0baa63b9e2cc30ce53ebd6ef3f5))
+* **interal:** make link to api.md relative ([#104](https://github.com/orbcorp/orb-node/issues/104)) ([deced43](https://github.com/orbcorp/orb-node/commit/deced43d9cc2e2825dcd65b61658078ccde7d8be))
+* **internal:** enable building when git installed ([#107](https://github.com/orbcorp/orb-node/issues/107)) ([9401b40](https://github.com/orbcorp/orb-node/commit/9401b40d38f8bac7bbbb2c378c3727d53108146e))
+* **internal:** re-order pagination import ([#106](https://github.com/orbcorp/orb-node/issues/106)) ([e3dbf09](https://github.com/orbcorp/orb-node/commit/e3dbf09cba3b87a4182f4907eed0fc187703bb34))
+* **internal:** refactor release environment script ([#112](https://github.com/orbcorp/orb-node/issues/112)) ([ec9c4cf](https://github.com/orbcorp/orb-node/commit/ec9c4cf73698f59aa340af569e4ee3af35074dc2))
+* **internal:** update deps ([#115](https://github.com/orbcorp/orb-node/issues/115)) ([d3b0b8c](https://github.com/orbcorp/orb-node/commit/d3b0b8c4f6b55388a1eaf0908069727931724246))
+* respect `application/vnd.api+json` content-type header ([#110](https://github.com/orbcorp/orb-node/issues/110)) ([e4f1905](https://github.com/orbcorp/orb-node/commit/e4f19054b22a333d98313d3d864b9204a4c6d663))
+
+
+### Documentation
+
+* add a CONTRIBUTING.md ([#108](https://github.com/orbcorp/orb-node/issues/108)) ([9527871](https://github.com/orbcorp/orb-node/commit/952787143b12495b497156248e33c094902c3093))
+* **contributing:** improve wording ([#116](https://github.com/orbcorp/orb-node/issues/116)) ([a812d1e](https://github.com/orbcorp/orb-node/commit/a812d1ef42a25d68ae8d2dcdd34ab106f8de5294))
+* **readme:** fix https proxy example ([#120](https://github.com/orbcorp/orb-node/issues/120)) ([e41f521](https://github.com/orbcorp/orb-node/commit/e41f521945715abcaebe066810839856ba1be9fb))
+* **readme:** fix typo in custom fetch implementation ([#117](https://github.com/orbcorp/orb-node/issues/117)) ([f7e314c](https://github.com/orbcorp/orb-node/commit/f7e314cb5902d4d0dcc86d5e0500f310198ff071))
+* remove extraneous --save and yarn install instructions ([#121](https://github.com/orbcorp/orb-node/issues/121)) ([5eff3ee](https://github.com/orbcorp/orb-node/commit/5eff3eee8dafd4ad700ec2e3c0e30e78845c2996))
+
 ## 1.41.0 (2024-02-01)
 
 Full Changelog: [v1.40.0...v1.41.0](https://github.com/orbcorp/orb-node/compare/v1.40.0...v1.41.0)
